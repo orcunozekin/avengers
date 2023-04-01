@@ -1,0 +1,29 @@
+body {
+  width: 300px;
+  height: 1000px;
+  background-repeat: no-repeat;
+  background-size: 1000px;
+  background-color: black;
+  background-image: url(https://hwp.com.tr/wp-content/uploads/2017/02/Avengers.jpg);
+  background-position: top;
+  
+}
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+.block {
+    box-sizing: border-box;
+    position: absolute;
+    transform: translate(600px, 500px);
+    margin: 50px auto;    
+}
+.block img {
+  width: 300px;
+  height: 200px;
+  box-shadow: 5px 5px 10px rgba(0, 55, 255, 0.703);
+}
+.text {
+  margin: 20px;
+}
