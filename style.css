@@ -1,29 +1,41 @@
 body {
-  width: 300px;
-  height: 1000px;
-  background-repeat: no-repeat;
+  /* background-repeat: no-repeat;
   background-size: 1000px;
-  background-color: black;
   background-image: url(https://hwp.com.tr/wp-content/uploads/2017/02/Avengers.jpg);
-  background-position: top;
-  
-}
-.container {
-  position: relative;
-  text-align: center;
+  background-position: 50% -60px; */
+  background-color: black;
   color: white;
 }
-.block {
-    box-sizing: border-box;
-    position: absolute;
-    transform: translate(600px, 500px);
-    margin: 50px auto;    
+
+.avengers-logo-container {
+  margin-top: -50px;
+  display: flex;
+  justify-content: center;
 }
-.block img {
+
+.avengers-logo {
+  width: 1000px;
+}
+
+.thor-image-container {
+  display: flex;
+  /*x axis*/
+  justify-content: center;
+  /*y axis*/
+  align-items: center;
+}
+
+.thor-image-container img {
   width: 300px;
   height: 200px;
+}
+
+.thor-image-container img:hover {
   box-shadow: 5px 5px 10px rgba(0, 55, 255, 0.703);
 }
-.text {
-  margin: 20px;
+
+.thor-text {
+  font-size: 32px;
+  margin: 0 -50px -80px 0;
+  position: relative;
 }
