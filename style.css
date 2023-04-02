@@ -1,10 +1,9 @@
 body {
-  /* background-repeat: no-repeat;
-  background-size: 1000px;
-  background-image: url(https://hwp.com.tr/wp-content/uploads/2017/02/Avengers.jpg);
-  background-position: 50% -60px; */
-  background-color: black;
-  color: white;
+background-image: url(https://i.pinimg.com/564x/15/1c/62/151c6252895a5f1d8ee59d2b0e90c5ac.jpg);
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+
 }
 
 .avengers-logo-container {
@@ -19,15 +18,14 @@ body {
 
 .thor-image-container {
   display: flex;
-  /*x axis*/
   justify-content: center;
-  /*y axis*/
   align-items: center;
+  margin-top: -50px;
 }
 
 .thor-image-container img {
   width: 300px;
-  height: 200px;
+  height: 400px;
 }
 
 .thor-image-container img:hover {
@@ -35,7 +33,81 @@ body {
 }
 
 .thor-text {
-  font-size: 32px;
-  margin: 0 -50px -80px 0;
+  font-size: 36px;
+  margin: 0 -35px -100px 0;
   position: relative;
+  font-family: 'Abel', sans-serif;
+  opacity: 0.8;
+  font-weight: bold;
+  color: #f5f5f5;
+
 }
+.iron-man-image {
+  display: flex;
+  justify-content:center; 
+  margin-top: 150px;
+  margin-left: -30px;
+}
+.iron-man-image img {
+  width: 300px;
+  height: 470px;
+}
+.iron-man-image img:hover {
+  box-shadow: 5px 5px 10px red;
+}
+.iron-man-text {
+  font-size: 36px;
+  position: relative;
+  color: #f5f5f5;
+  margin: 36px -346px 0px 270px;
+  font-family: 'Signika Negative', sans-serif;
+  opacity: 0.8;
+}
+
+.topnav {
+  background-color: #000;
+  overflow: hidden;
+  position: fixed;
+  top: 1px;
+  margin-left: 670px;
+}
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  width: 60px;
+  text-align: center;
+  padding: 14px 16px;
+  left: 0;
+  text-decoration: none;
+  font-size: 17px;
+}
+.topnav a:hover {
+  background-color: #f2f2f2;
+  color: black;
+  transition: background-color 0.4s;
+}
+.topnav a.active {
+  background-color: rgba(171, 15, 15, 0.914);
+  color: white;
+}
+.topnav a.active:hover {
+  background-color: #f5f5f5;
+  color: black;
+  transition: background-color 0.4s;
+}
+
+p {
+  text-align: center;
+  font-size: 20px;
+  font-family: 'EB Garamond', serif;
+  color: #f5f5f5;
+  margin: 50px auto;
+  transform: translate(19px, -607px);
+  
+}
+.video {
+  margin-left: 470px;
+  margin-bottom: 20px;
+  justify-content: center;
+}
+
