@@ -3,13 +3,15 @@ background-image: url(https://i.pinimg.com/564x/15/1c/62/151c6252895a5f1d8ee59d2
 background-position: center;
 background-repeat: no-repeat;
 background-size: cover;
-
+height: 2100px
 }
 
 .avengers-logo-container {
   margin-top: -50px;
   display: flex;
   justify-content: center;
+  opacity: 0.6;
+  filter: brightness(1.2);
 }
 
 .avengers-logo {
@@ -21,6 +23,8 @@ background-size: cover;
   justify-content: center;
   align-items: center;
   margin-top: -50px;
+  opacity: 0.7;
+    filter: brightness(1.1);
 }
 
 .thor-image-container img {
@@ -47,10 +51,15 @@ background-size: cover;
   justify-content:center; 
   margin-top: 150px;
   margin-left: -30px;
+  transform: translate(0px, -410px);
+  opacity: 0.7;
+  filter: brightness(1.1);
 }
+
 .iron-man-image img {
   width: 300px;
   height: 470px;
+  
 }
 .iron-man-image img:hover {
   box-shadow: 5px 5px 10px red;
@@ -70,6 +79,8 @@ background-size: cover;
   position: fixed;
   top: 1px;
   margin-left: 670px;
+  z-index: 2;
+  opacity: 0.8;
 }
 .topnav a {
   float: left;
@@ -102,12 +113,45 @@ p {
   font-family: 'EB Garamond', serif;
   color: #f5f5f5;
   margin: 50px auto;
-  transform: translate(19px, -607px);
-  
-}
+  }
 .video {
-  margin-left: 470px;
-  margin-bottom: 20px;
   justify-content: center;
+  margin: 50px auto;
+  display: flex;
+  align-items: center;
+  transform: translate(10px, -1100px);
+ }
+
+.gauntlet {
+ display: flex;
+ position: relative;
+ width: 300px;
+ height: 300px;
+ filter: brightness(0.4);
+ align-items: center;
+ left: -50px;
+ top: -250px;
 }
 
+.thanos {
+  display: flex;
+  position: relative;
+  height: 250px;
+  left: 1160px;
+  bottom: 710px;
+  opacity: 0.3;
+  filter: brightness(1.2);
+  width: 300px;
+}
+.stones {
+  display: flex;
+  height: 600px;
+  position: relative;
+  bottom: 810px;
+  filter: brightness(1.2);
+  opacity: 0.5;
+  left: 25px;
+  max-width: fit-content;
+}
+
+ 
